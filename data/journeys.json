@@ -1,0 +1,122 @@
+[
+  {
+    "id": "perungudi-guindy-bus",
+    "originId": "perungudi", "destinationId": "guindy", "totalFareINR": 25, "estimatedDurationMinutes": 50, "transfers": 0,
+    "legs": [{ "mode": "bus", "originId": "perungudi", "destinationId": "guindy", "serviceName": "Bus connection · demo route", "fareINR": 25, "walkingMinutes": 8, "waitingMinutes": 10, "inVehicleMinutes": 32 }],
+    "source": "Hackathon demonstration estimate; place names cross-checked against the supplied CUMTA GTFS bundle.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "perungudi-guindy-transfer",
+    "originId": "perungudi", "destinationId": "guindy", "totalFareINR": 35, "estimatedDurationMinutes": 61, "transfers": 1,
+    "legs": [
+      { "mode": "bus", "originId": "perungudi", "destinationId": "alandur", "serviceName": "Bus + metro · demo connection", "fareINR": 15, "walkingMinutes": 6, "waitingMinutes": 7, "inVehicleMinutes": 19 },
+      { "mode": "metro", "originId": "alandur", "destinationId": "guindy", "serviceName": "Chennai Metro · demo interchange leg", "fareINR": 20, "walkingMinutes": 2, "waitingMinutes": 5, "inVehicleMinutes": 22 }
+    ],
+    "source": "Hackathon demonstration estimate; place names cross-checked against the supplied CUMTA GTFS bundle.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "guindy-tambaram-train",
+    "originId": "guindy", "destinationId": "tambaram", "totalFareINR": 20, "estimatedDurationMinutes": 45, "transfers": 0,
+    "legs": [{ "mode": "train", "originId": "guindy", "destinationId": "tambaram", "serviceName": "Suburban rail · sample journey", "fareINR": 20, "walkingMinutes": 6, "waitingMinutes": 9, "inVehicleMinutes": 30 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "guindy-tambaram-bus",
+    "originId": "guindy", "destinationId": "tambaram", "totalFareINR": 25, "estimatedDurationMinutes": 72, "transfers": 0,
+    "legs": [{ "mode": "bus", "originId": "guindy", "destinationId": "tambaram", "serviceName": "Bus connection · demo route", "fareINR": 25, "walkingMinutes": 5, "waitingMinutes": 12, "inVehicleMinutes": 55 }],
+    "source": "Hackathon demonstration estimate; stop names cross-checked against the supplied CUMTA GTFS bundle.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "perungudi-velachery-train",
+    "originId": "perungudi", "destinationId": "velachery", "totalFareINR": 15, "estimatedDurationMinutes": 24, "transfers": 0,
+    "legs": [{ "mode": "train", "originId": "perungudi", "destinationId": "velachery", "serviceName": "MRTS / suburban rail · sample journey", "fareINR": 15, "walkingMinutes": 5, "waitingMinutes": 8, "inVehicleMinutes": 11 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "perungudi-central-train",
+    "originId": "perungudi", "destinationId": "chennai-central", "totalFareINR": 20, "estimatedDurationMinutes": 49, "transfers": 0,
+    "legs": [{ "mode": "train", "originId": "perungudi", "destinationId": "chennai-central", "serviceName": "MRTS / suburban rail · sample journey", "fareINR": 20, "walkingMinutes": 7, "waitingMinutes": 10, "inVehicleMinutes": 32 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "perungudi-tambaram-rail",
+    "originId": "perungudi", "destinationId": "tambaram", "totalFareINR": null, "estimatedDurationMinutes": 76, "transfers": 1,
+    "legs": [
+      { "mode": "bus", "originId": "perungudi", "destinationId": "guindy", "serviceName": "Bus connection · sample", "fareINR": null, "walkingMinutes": 7, "waitingMinutes": 12, "inVehicleMinutes": 30 },
+      { "mode": "train", "originId": "guindy", "destinationId": "tambaram", "serviceName": "Suburban rail · sample connection", "fareINR": null, "walkingMinutes": 4, "waitingMinutes": 8, "inVehicleMinutes": 15 }
+    ],
+    "source": "Hackathon demonstration estimate; fares are not available in the supplied GTFS feeds.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "guindy-airport-metro",
+    "originId": "guindy", "destinationId": "airport-metro", "totalFareINR": 30, "estimatedDurationMinutes": 40, "transfers": 0,
+    "legs": [{ "mode": "metro", "originId": "guindy", "destinationId": "airport-metro", "serviceName": "Chennai Metro · sample journey", "fareINR": 30, "walkingMinutes": 5, "waitingMinutes": 8, "inVehicleMinutes": 27 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied CUMTA Metro GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "airport-guindy-metro",
+    "originId": "airport-metro", "destinationId": "guindy", "totalFareINR": 30, "estimatedDurationMinutes": 42, "transfers": 0,
+    "legs": [{ "mode": "metro", "originId": "airport-metro", "destinationId": "guindy", "serviceName": "Chennai Metro · sample journey", "fareINR": 30, "walkingMinutes": 6, "waitingMinutes": 9, "inVehicleMinutes": 27 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied CUMTA Metro GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "tambaram-airport",
+    "originId": "tambaram", "destinationId": "chennai-airport", "totalFareINR": 10, "estimatedDurationMinutes": 52, "transfers": 0,
+    "legs": [{ "mode": "train", "originId": "tambaram", "destinationId": "tirusulam", "serviceName": "Suburban rail to Tirusulam · sample", "fareINR": 10, "walkingMinutes": 5, "waitingMinutes": 8, "inVehicleMinutes": 27 }, { "mode": "walk", "originId": "tirusulam", "destinationId": "chennai-airport", "serviceName": "Walk to airport terminal · sample", "fareINR": 0, "walkingMinutes": 12, "waitingMinutes": 0, "inVehicleMinutes": 0 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "airport-tambaram",
+    "originId": "chennai-airport", "destinationId": "tambaram", "totalFareINR": 10, "estimatedDurationMinutes": 43, "transfers": 0,
+    "legs": [{ "mode": "walk", "originId": "chennai-airport", "destinationId": "tirusulam", "serviceName": "Walk to Tirusulam station · sample", "fareINR": 0, "walkingMinutes": 12, "waitingMinutes": 0, "inVehicleMinutes": 0 }, { "mode": "train", "originId": "tirusulam", "destinationId": "tambaram", "serviceName": "Suburban rail from Tirusulam · sample", "fareINR": 10, "walkingMinutes": 4, "waitingMinutes": 8, "inVehicleMinutes": 19 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "tambaram-central",
+    "originId": "tambaram", "destinationId": "chennai-central", "totalFareINR": 25, "estimatedDurationMinutes": 59, "transfers": 1,
+    "legs": [{ "mode": "train", "originId": "tambaram", "destinationId": "egmore", "serviceName": "Suburban rail · sample connection", "fareINR": 15, "walkingMinutes": 5, "waitingMinutes": 8, "inVehicleMinutes": 31 }, { "mode": "walk", "originId": "egmore", "destinationId": "egmore", "serviceName": "Walk to Egmore MRTS platform · sample", "fareINR": 0, "walkingMinutes": 6, "waitingMinutes": 0, "inVehicleMinutes": 0 }, { "mode": "train", "originId": "egmore", "destinationId": "chennai-central", "serviceName": "MRTS · sample connection", "fareINR": 10, "walkingMinutes": 2, "waitingMinutes": 5, "inVehicleMinutes": 2 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "central-tambaram",
+    "originId": "chennai-central", "destinationId": "tambaram", "totalFareINR": 25, "estimatedDurationMinutes": 52, "transfers": 1,
+    "legs": [{ "mode": "train", "originId": "chennai-central", "destinationId": "egmore", "serviceName": "MRTS · sample connection", "fareINR": 10, "walkingMinutes": 5, "waitingMinutes": 9, "inVehicleMinutes": 4 }, { "mode": "walk", "originId": "egmore", "destinationId": "egmore", "serviceName": "Walk to suburban rail platform · sample", "fareINR": 0, "walkingMinutes": 6, "waitingMinutes": 0, "inVehicleMinutes": 0 }, { "mode": "train", "originId": "egmore", "destinationId": "tambaram", "serviceName": "Suburban rail · sample connection", "fareINR": 15, "walkingMinutes": 2, "waitingMinutes": 7, "inVehicleMinutes": 19 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "velachery-central",
+    "originId": "velachery", "destinationId": "chennai-central", "totalFareINR": 20, "estimatedDurationMinutes": 48, "transfers": 0,
+    "legs": [{ "mode": "train", "originId": "velachery", "destinationId": "chennai-central", "serviceName": "MRTS / suburban rail · sample journey", "fareINR": 20, "walkingMinutes": 7, "waitingMinutes": 9, "inVehicleMinutes": 32 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "central-perungudi",
+    "originId": "chennai-central", "destinationId": "perungudi", "totalFareINR": 20, "estimatedDurationMinutes": 51, "transfers": 0,
+    "legs": [{ "mode": "train", "originId": "chennai-central", "destinationId": "perungudi", "serviceName": "MRTS / suburban rail · sample journey", "fareINR": 20, "walkingMinutes": 8, "waitingMinutes": 10, "inVehicleMinutes": 33 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied Southern Railway GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "velachery-guindy",
+    "originId": "velachery", "destinationId": "guindy", "totalFareINR": 20, "estimatedDurationMinutes": 46, "transfers": 0,
+    "legs": [{ "mode": "bus", "originId": "velachery", "destinationId": "guindy", "serviceName": "Bus connection · demo route", "fareINR": 20, "walkingMinutes": 5, "waitingMinutes": 11, "inVehicleMinutes": 30 }],
+    "source": "Hackathon demonstration estimate; stop names cross-checked against the supplied CUMTA GTFS bundle.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "guindy-central-metro",
+    "originId": "guindy", "destinationId": "chennai-central", "totalFareINR": 40, "estimatedDurationMinutes": 52, "transfers": 1,
+    "legs": [{ "mode": "metro", "originId": "guindy", "destinationId": "alandur", "serviceName": "Chennai Metro · Blue Line sample leg", "fareINR": 20, "walkingMinutes": 4, "waitingMinutes": 6, "inVehicleMinutes": 15 }, { "mode": "metro", "originId": "alandur", "destinationId": "chennai-central", "serviceName": "Chennai Metro · Green Line sample leg", "fareINR": 20, "walkingMinutes": 4, "waitingMinutes": 3, "inVehicleMinutes": 20 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied CUMTA Metro GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "central-airport-terminal",
+    "originId": "chennai-central", "destinationId": "chennai-airport", "totalFareINR": 35, "estimatedDurationMinutes": 65, "transfers": 0,
+    "legs": [{ "mode": "metro", "originId": "chennai-central", "destinationId": "airport-metro", "serviceName": "Chennai Metro · sample journey", "fareINR": 35, "walkingMinutes": 6, "waitingMinutes": 10, "inVehicleMinutes": 39 }, { "mode": "walk", "originId": "airport-metro", "destinationId": "chennai-airport", "serviceName": "Walk to airport terminal · sample", "fareINR": 0, "walkingMinutes": 10, "waitingMinutes": 0, "inVehicleMinutes": 0 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied CUMTA Metro GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  },
+  {
+    "id": "airport-central-metro",
+    "originId": "chennai-airport", "destinationId": "chennai-central", "totalFareINR": 35, "estimatedDurationMinutes": 57, "transfers": 0,
+    "legs": [{ "mode": "walk", "originId": "chennai-airport", "destinationId": "airport-metro", "serviceName": "Walk to Airport Metro · sample", "fareINR": 0, "walkingMinutes": 10, "waitingMinutes": 0, "inVehicleMinutes": 0 }, { "mode": "metro", "originId": "airport-metro", "destinationId": "chennai-central", "serviceName": "Chennai Metro · sample journey", "fareINR": 35, "walkingMinutes": 6, "waitingMinutes": 10, "inVehicleMinutes": 31 }],
+    "source": "Hackathon demonstration estimate; station names cross-checked against the supplied CUMTA Metro GTFS feed.", "updatedAt": "2026-11-05", "dataStatus": "sample"
+  }
+]
